@@ -1,0 +1,21 @@
+{% extends 'PortfolioDatabase/base.html' %}
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'PortfolioDatabase/style.css' %}">
+
+</head>
+<body>
+{% block body %}
+    <div class="intro" width="400px">
+        <p>Hello, welcome to my django website. My name is gissel
+        and I am studying CS at Weber State!</p>
+    </div>
+{% endblock %}
+</body>
+</html>

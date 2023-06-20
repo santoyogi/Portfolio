@@ -1,0 +1,98 @@
+body{
+    background-image: url("abstract.jpg")
+}
+h3{
+    font-family: Castellar;
+    font-palette: dark;
+    font-weight: bolder;
+}
+h5{
+    font-family: "Juice ITC";
+}
+
+
+
+.col-md-4{
+    background-color: #FFC3F5;
+    border: groove black;
+    height: 80px;
+    margin: 20px 10px 20px 10px;
+}
+
+.col-md-4:hover{
+    box-shadow: 20px 10px 10px #FB00F0;
+
+}
+
+.details_btn{
+    background-color: #E2C0FC;
+    border: solid black;
+    margin: 20px 10px 20px 10px;
+    padding: 10px;
+    color: black;
+    font-family: Calibri;
+}
+.details_btn:hover{
+    background-color: white;
+}
+
+.hobby-pics{
+    border: double black;
+    margin: 20px 10px 20px 10px;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+.col-md-6{
+    background-color: black;
+    color: white;
+    border: #FB00F0 solid;
+    font-family: Broadway;
+    margin: 10px;
+}
+.h1{
+    margin: 10px 50px;
+}
+
+.hobby-img{
+    border: #FB00F0 double;
+    margin: 10px 110px
+}
+
+.hobby-title{
+    padding: 1px 110px;
+}
+
+.portfolio-pics{
+    width: 300px;
+    height: 200px;
+    border: double black;
+    margin: 20px 10px 20px 10px;
+}
+
+.portfolio-img{
+    border: #FB00F0 double;
+    width: 300px;
+    height: 200px;
+    margin: 10px 110px
+}
+
+.portfolio-title{
+    padding: 1px 110px;
+}
+
+.intro{
+    color:black;
+    background-color: #FFC3F5;
+    border: groove black;
+    height: 80px;
+    margin: 200px 10px 20px 10px;
+    font-size: 24px;
+    font-family: "Calibri";
+}
+
+p{
+    padding: 20px 250px;
+}
